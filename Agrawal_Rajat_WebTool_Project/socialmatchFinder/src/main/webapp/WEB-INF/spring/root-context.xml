@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		<bean id="usersDAO" class="com.neu.mymatchFinder.dao.UsersDAO" ></bean>
+		<bean id="postsDao" class="com.neu.mymatchFinder.dao.PostsDAO" ></bean>
+		<bean id="contactsDao" class="com.neu.mymatchFinder.dao.ContactsDAO" ></bean>
+		<bean id="messagesDao" class="com.neu.mymatchFinder.dao.MessageDAO"></bean>		
+		<bean id="notificationDao" class="com.neu.mymatchFinder.dao.NotificationDAO" ></bean>
+		<bean id="adminDao" class="com.neu.mymatchFinder.dao.AdminDAO" ></bean>
+		<bean id="categoryDao" class="com.neu.mymatchFinder.dao.CategoryDAO" ></bean>
+		<bean id="forumDao" class="com.neu.mymatchFinder.dao.ForumDAO" ></bean>	
+		<bean id="userValidator" class="com.neu.mymatchFinder.UserValidator"></bean>	
+		
+</beans>

@@ -1,0 +1,8 @@
+Entering Default method with .html --- end
+Entering getRegValue with .html and  --- 
+Entering Default method with htmlfile\shell\open\command --- end
+Entering getRegValue with htmlfile\shell\open\command and  --- 
+Entering Default method with .html --- end
+Entering getRegValue with .html and  --- 
+Entering Default method with htmlfile\shell\open\command --- end
+Entering getRegValue with htmlfile\shell\open\command and  --- 
